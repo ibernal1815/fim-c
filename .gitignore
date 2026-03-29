@@ -1,0 +1,21 @@
+# compiled output
+fim
+obj/
+
+# runtime data
+data/baseline.db
+data/fim.log
+
+# keep the data directory itself
+!data/.gitkeep
+
+# editor and OS clutter
+.vscode/
+.DS_Store
+*.swp
+*.swo
+*~
+
+# build artifacts
+*.o
+*.a
